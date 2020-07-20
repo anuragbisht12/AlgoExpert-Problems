@@ -13,7 +13,7 @@ def allKindsOfNodeDepths(root):
         sumOfAllDepths +=nodeDepths(node)
         stack.append(node.left)
         stack.append(node.right)
-
+    return sumOfAllDepths
 
 def nodeDepths(node,depth=0):
     if node is None:
