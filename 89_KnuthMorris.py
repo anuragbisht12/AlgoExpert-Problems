@@ -1,3 +1,4 @@
+# O(n+m) time and O(m) space
 def knuthMorrisPrattAlgorithm(string, substring):
     pattern=buildPattern(substring)
 	return doesMatch(string,substring,pattern)
